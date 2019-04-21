@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: practice
+  mail:
+    host: smtp.126.com
+    username: wwggyy_2@126.com
+    password: wgy8865461
+    default-encoding: UTF-8
+eureka:
+  client:
+    service-url:
+      defaultZone: http://120.79.208.188:8761/eureka
+server:
+  port: 8083
